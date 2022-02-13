@@ -40,7 +40,5 @@ $ cd download/
 Compile it using `make`.
 
 ```
-$ make build
-$ gcc src/download.c -lcurl -o bin/download
-$ install 
+$ sudo make 
 ```
