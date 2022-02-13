@@ -45,5 +45,6 @@ int main(int argc, char **argv) {
     }
     
     fclose(fp);
+    curl_easy_cleanup(curl);
     curl_global_cleanup();
 }
