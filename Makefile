@@ -9,7 +9,7 @@ all:
 	@echo "download has been successfully installed."
 build:
 	mkdir bin/
-	gcc src/download.c -lcurl -o bin/download
+	gcc download.c -lcurl -o bin/download
 
 install:
 	mkdir -p $(PREFIX)/bin
