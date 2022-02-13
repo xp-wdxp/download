@@ -2,7 +2,7 @@ PREFIX  ?= /usr
 
 all:
 	mkdir bin/
-	gcc src/download.c -lcurl -o bin/download
+	gcc download.c -lcurl -o bin/download
 	@echo "Compilation successfully completed."
 	mkdir -p $(PREFIX)/bin
 	install -m 0755 bin/download $(PREFIX)/bin/download
